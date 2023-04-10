@@ -3,8 +3,9 @@
     --headerFontSize: 20px;
     --headerLogoFontSize: 30px;
     --headerSubtitle:25px;
-    --headerFontColor:#d7ebfd;
-
+    --headerFontColor:#94cbfa;
+    --SectionHeaderFontColor:#2c628c;
+    
 }
 
 body {
@@ -27,8 +28,9 @@ h2 {
 
 h3{
 
-    font-size: 100%;
+    font-size: 200%;
 }
+
 
 p {
     font-size: 16px;
@@ -78,12 +80,14 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(37, 55, 65);
-    color: #fff;
     font-weight: bold;
     Font-size: var(--headerFontSize);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    
 }
 
-.main-header h1 {
+.site-header h1 {
 
     background-color: #37495a;
     font-size: --headerLogoFontSize;
@@ -108,15 +112,14 @@ nav a:hover {
 
 }
 .hero h2{
-
-    font-size: var(--headerSubtitle);
     background-color: #37495a;
+    font-size: var(--headerSubtitle);
+    color: var(--headerFontColor);
     margin-left: auto;
     padding-left: 50px;
     padding-right: 20px;
     background-blend-mode: ;
-    color: var(--headerFontColor)
-
+    
 }
 
 main{
@@ -129,6 +132,12 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap : nowrap; 
+}
+.main-sections h3{
+
+color: var(--SectionHeaderFontColor);
+
+
 }
 .sections-header{
     flex: 0 0 250px;
