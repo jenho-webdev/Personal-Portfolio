@@ -6,7 +6,7 @@
     <a href="https://github.com/jenho-webdev/Personal-Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">Deployed Application |</a>
+    <a href="https://jenho-webdev.github.io/Personal-Portfolio/">Deployed Application |</a>
     <a href="https://github.com/jenho-webdev/Personal-Portfolio/issues">Report Bug |</a>
     <a href="https://github.com/jenho-webdev/Personal-Portfolio/issues">Request Feature |</a>
   </p>
