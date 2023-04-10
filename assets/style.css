@@ -13,6 +13,7 @@ body {
     line-height: 1.3;
     min-height: 100vh;
     flex-wrap: nowrap;
+    
 }
 
 
@@ -29,6 +30,25 @@ h3{
     font-size: 100%;
 }
 
+p {
+    font-size: 16px;
+    line-height: 1.5; 
+    /* Set the text color to a dark gray */
+    color: #333; 
+    /* Add some spacing between paragraphs */
+    margin-bottom: 1rem; 
+    font-family:monospace;
+    font-weight: 600;
+    
+}
+img {
+    border: 5px solid #92cccd;
+    transition: 0.5s linear;
+}
+
+img:hover {
+    opacity: 50%;
+}
 nav {
     margin-right: 20px
 }
@@ -51,8 +71,8 @@ nav a:hover {
     color: #005f6b;
 }
 
-.main-header,
-.main-footer {
+.site-header,
+.site-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -102,41 +122,64 @@ nav a:hover {
 main{
   padding: 10px;
   margin: 10px;
-    
 }
 
 .main-sections {
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap : nowrap; 
 }
-
-.main-sections-header{
+.sections-header{
+    flex: 0 0 250px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
     word-wrap: break-word;
-    flex: 0 0 150px;
     padding-right: 5px;
 }
 .sections-line{
 flex: 0 0 3px;
-content: "";
 background-color: #37495a;
 padding-right: 2px;
 border-radius:25px;
-height: auto;
-margin: 0 200px 0px 20px;
-
+/* height: auto; */
+margin: 0 100px 0px 20px;
 
 }
 .sections-content {
-
-
+    flex: 3 0 auto;
+    content: "";
+    background-color: #37495a;
+    padding-right: 2px;
+    height: auto;
+    margin: 0 20px 50px 20px;
 }
 
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    ;
+    
+}
 
+.box img{
+    margin-left: 155px;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    flex-wrap: wrap;
+}
 
 .center {
     display: flex;
