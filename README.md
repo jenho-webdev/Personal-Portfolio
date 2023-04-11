@@ -65,17 +65,14 @@ The following animation shows the web application's appearance and functionality
 
 <!-- ROADMAP -->
 ### Roadmap
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
+- [ ] Site Baseline development: A functional and responsive site showing the latest web applications that i built.
+- [ ] Adding some kind of Javascript function to the site for better user experience.
 See the [open issues](https://github.com/jenho-webdev/Personal-Portfolio/issues) for a full list of proposed features (and known issues).
 
 ### Contact Me
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-Github:
-Email:
-Slack:
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/jen-h-202a1723/)
+[![Github][Github-shield]](https://github.com/jenho-webdev/Personal-Portfolio)
+[![Slack][slack-shield]](https://jenworkspace-as73396.slack.com/archives/C052QLTJQHG)
 
 
 
@@ -91,3 +88,5 @@ Slack:
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
+[Github-shield]:https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[slack-shield]:https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white
