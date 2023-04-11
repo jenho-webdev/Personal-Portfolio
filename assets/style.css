@@ -39,17 +39,6 @@ h3{
 }
 
 
-p {
-    font-size: 16px;
-    line-height: 1.5; 
-    /* Set the text color to a dark gray */
-    color: #333; 
-    /* Add some spacing between paragraphs */
-    margin-bottom: 1rem; 
-    font-family:monospace:Arial, Helvetica, sans-serif;
-    font-weight: 600;
-        
-}
 img {
     border: 5px solid #92cccd;
     transition: 0.5s linear;
@@ -125,7 +114,7 @@ nav a:hover {
     margin-left: auto;
     padding-left: 50px;
     padding-right: 20px;
-    background-blend-mode: ;
+    background-blend-mode: overlay ;
     
 }
 
@@ -135,17 +124,14 @@ main{
 }
 
 .main-sections {
-    padding: 30px;
     display: flex;
+    padding: 30px;
     flex-direction: row;
     flex-wrap : nowrap; 
 }
-
+/* main-sections' flex-item 1*/
 .main-sections h3{
-color: var(--SectionHeaderFontColor);
-}
-
-.sections-header{
+    color: var(--SectionHeaderFontColor);
     flex: 0 0 200px;
     display: flex;
     align-items: flex-start;
@@ -154,22 +140,59 @@ color: var(--SectionHeaderFontColor);
     padding-right: 5px;
 }
 
+/* main-sections' flex-item 2*/
+/* adding a border as line in between flex-item 1 and 3 */
 .sections-line{
 flex: 0 0 3px;
 background-color: #37495a;
 padding-right: 2px;
 border-radius:25px;
 margin: 0 100px 0px 20px;
-
 }
+
+/* main-sections' flex-item 3*/
 .sections-content {
     flex: 3 0 auto;
-    content: "";
-    background-color: #37495a;
     padding-right: 2px;
     height: auto;
     margin: 0 20px 50px 20px;
+    /* setup flex-container within a flex-item for different type of content types */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
+
+/* flex-container inside .sections-content */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.
+.content-container p{
+    font-size: 16px;
+    /* Set the text color to a dark gray */
+    color: #333;
+    /* Add some spacing between paragraphs */
+    /* margin-bottom: 1rem;
+    font-family: monospace:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 2px; */
+    
+        /*line-height: 150px; -- removed this line*/
+    font-weight: bold;
+    word-wrap: break-word;
+   
+    }
+
 .box {
     display: flex;
     flex-direction: row;
@@ -183,6 +206,7 @@ margin: 0 100px 0px 20px;
     width: 400px;
     height: 200px;
 }
+
 
 .badges {
     width: 83px;
