@@ -3,7 +3,7 @@
     --headerFontSize: 20px;
     --headerLogoFontSize: 30px;
     --headerSubtitle: 25px;
-    --headerFontColor: #94cbfa;
+    --HFFontColor: #94cbfa;
     --SectionHeaderFontColor: #2c628c;
 
 }
@@ -13,22 +13,20 @@ body {
     flex-direction: column;
     line-height: 1.3;
     min-height: 100vh;
-    flex-wrap: nowrap;
-
+    flex-wrap: nowrap
 }
 
 
-h1 {
+h1,h3 {
     font-size: 200%;
 }
 
 h2 {
     font-size: 150%;
 }
-
-h3 {
-
-    font-size: 200%;
+h4 {
+    font-size: 100%;
+    color:var(--HFFontColor);
 }
 
 
@@ -97,7 +95,7 @@ nav a:hover {
     margin-left: 0px;
     padding-left: 100px;
     padding-right: 20px;
-    color: var(--headerFontColor)
+    color: var(--HFFontColor)
 }
 
 .hero {
@@ -118,12 +116,10 @@ nav a:hover {
 .hero h2 {
     background-color: #37495a;
     font-size: var(--headerSubtitle);
-    color: var(--headerFontColor);
+    color: var(--HFFontColor);
     margin-left: auto;
     padding-left: 50px;
     padding-right: 20px;
-    background-blend-mode: ;
-
 }
 
 main {
@@ -174,34 +170,31 @@ main {
 }
 
 .box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    /* display: flex;
+    flex-direction: row; */
     gap: 5px 10px;
     margin-top: 5px;
-    flex-wrap: wrap;
-    margin-left: 100px;
 }
 
 .box img {
     padding: 5px;
-    width: 400px;
+    width: 300px;
     height: 200px;
 }
 
 .badges {
-    width: 83px;
-    height: 30px;
+    width: 80px;
+    height: 20px;
 }
 
 .center {
-    display: flex;
     justify-content: center;
-    padding: 2%;
 }
 
 
 
+/*  only apply to screens that are 768px or narrower. 
+If the screen is wider than 768px,the styles won't be applied. */
 
 @media screen and (max-width: 768px) {
     header {
@@ -214,15 +207,5 @@ main {
 
     section {
         flex-wrap: wrap;
-    }
-
-    section h2 {
-        flex-basis: 100%;
-        margin-bottom: 10px;
-    }
-
-    section::before {
-        margin-right: 0;
-        margin-bottom: 10px;
     }
 }
