@@ -1,54 +1,51 @@
-:root{
+:root {
 
-    /* Customs var */
+    --HFFontColor: #94cbfa;
+    --SectionHeaderFontColor: #2c628c;
+   
 
-    /* Font Colors */
-    --headerFontColor:#94cbfa;
-    --SectionHeaderFontColor:#2c628c;
+}
 
-    /* Font Sizes */
-    --headerLogoFontSize: 50px;
-    --headerFontSize: 20px;
-    --headerSubtitle: 40px;
-
-
-    /* Background Colors */
+/* Header,Hero,Footer*/
+h1{
+    font-size: 300%;
+}
+/* Subtitle */
+h2,h5{
+    font-size: 200%
     
-
-
 }
-/* Set "Global Styling in the Body Tag */
-body {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.5;
-    flex-wrap: nowrap;
-}
-
-h1 {
+/* Sections*/
+h3 {
     font-size: 200%;
 }
-
-h2 {
-     font-size: 150%;
-}
-
-h3{
-
+/* box */
+h4 {
     font-size: 200%;
+    
 }
+
+
+
 
 
 p {
+
     font-size: 16px;
-    line-height: 1.5; 
+    line-height: 1.5;
     /* Set the text color to a dark gray */
-    color: #333; 
+    color: #333;
     /* Add some spacing between paragraphs */
-    margin-bottom: 1rem; 
-    font-family:monospace:Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    font-family: monospace;
     font-weight: 600;
-        
+}
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    min-height: 100vh;
+    flex-wrap: nowrap
 }
 img {
     border: 5px solid #92cccd;
@@ -58,14 +55,15 @@ img {
 img:hover {
     opacity: 50%;
 }
+
 nav {
-    margin-right: 30px
+    margin-right: 20px
 }
 
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 400px;
+    min-width: 350px;
     list-style: none;
 }
 
@@ -80,6 +78,7 @@ nav a:hover {
     color: #005f6b;
 }
 
+
 .site-header,
 .site-footer {
     display: flex;
@@ -88,29 +87,29 @@ nav a:hover {
     align-items: center;
     background-color: rgb(37, 55, 65);
     font-weight: bold;
-    Font-size: var(--headerFontSize);
     padding-bottom: 10px;
     padding-top: 20px;
-    
+    color: var(--HFFontColor);
+
 }
 
 .site-header h1 {
 
     background-color: #37495a;
-    font-size: var(--headerLogoFontSize);
     margin-right: -20px;
     margin-left: 0px;
     padding-left: 100px;
     padding-right: 20px;
-    color: var(--headerFontColor)
+    color: var(--HFFontColor)
 }
+
 .hero {
     display: flex;
-    background-image: url(./images/02-hero-bg.jpg),linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5));
+    background-image: url(./images/02-hero-bg.jpg), linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5));
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     position: relative;
-    
+
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
@@ -118,35 +117,36 @@ nav a:hover {
     height: 200px;
 
 }
-.hero h2{
+
+.hero h2 {
     background-color: #37495a;
-    font-size: var(--headerSubtitle);
-    color: var(--headerFontColor);
+    color: var(--HFFontColor);
     margin-left: auto;
     padding-left: 50px;
     padding-right: 20px;
-    background-blend-mode: ;
-    
 }
 
-main{
-  padding: 10px;
-  margin: 10px;
+main {
+    padding: 10px;
+    margin: 10px;
 }
 
 .main-sections {
-    padding: 30px;
+    padding: 50px;
     display: flex;
     flex-direction: row;
-    flex-wrap : nowrap; 
+    flex-wrap: nowrap;
 }
 
-.main-sections h3{
-color: var(--SectionHeaderFontColor);
+.main-sections h3 {
+
+    color: var(--SectionHeaderFontColor);
+
+
 }
 
-.sections-header{
-    flex: 0 0 200px;
+.sections-header {
+    flex: 0 0 250px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
@@ -154,14 +154,16 @@ color: var(--SectionHeaderFontColor);
     padding-right: 5px;
 }
 
-.sections-line{
-flex: 0 0 3px;
-background-color: #37495a;
-padding-right: 2px;
-border-radius:25px;
-margin: 0 100px 0px 20px;
+.sections-line {
+    flex: 0 0 3px;
+    background-color: #37495a;
+    padding-right: 2px;
+    border-radius: 25px;
+    /* height: auto; */
+    margin: 0 100px 0px 20px;
 
 }
+
 .sections-content {
     flex: 3 0 auto;
     content: "";
@@ -170,52 +172,89 @@ margin: 0 100px 0px 20px;
     height: auto;
     margin: 0 20px 50px 20px;
 }
-.box {
+
+.boxes {
     display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    gap: 5px 10px;
-    margin-right:5px;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px 10px;
 }
-.box img{
+
+.box 
+{
+    position: relative;
+}
+.box img {
+
     padding: 5px;
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 200px;  
+    
 }
 
+.box-text {
+
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    background-color:#92cccd;
+    color: #ffffff;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px 50px 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
 .badges {
-    width: 83px;
-    height: 30px;
-}
-.center {
+
     display: flex;
-    justify-content: center;
-    padding: 2%;
+    gap: 0px 10px;
+
 }
 
-  
+.badges img {
+    width: 100px;
+    height: 20spx;
+    object-fit: fill;
+}
 
-   
+/* reuseable styling and utility classes to override others as these are positioned
+after all other classes */
+
+.flex-center {
+    justify-content: center;
+}
+
+
+
+
+/*  only apply to screens that are 768px or narrower. 
+If the screen is wider than 768px,the styles won't be applied. */
+
 @media screen and (max-width: 768px) {
     header {
-            flex-direction: column;
-        }
-    
+        flex-direction: column;
+    }
+
     main {
         max-width: 1200px;
     }
+
     section {
         flex-wrap: wrap;
     }
-
-    section h2 {
-        flex-basis: 100%;
-        margin-bottom: 10px;
+}
+@media screen and (max-width: 400px) {
+    header {
+        flex-direction: column;
     }
 
-    section::before {
-        margin-right: 0;
-        margin-bottom: 10px;
+    main {
+        max-width: 1200px;
+    }
+
+    section {
+        flex-wrap: wrap;
     }
 }
