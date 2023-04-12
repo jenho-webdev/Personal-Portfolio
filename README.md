@@ -28,6 +28,7 @@
 
 
 ### About The Project
+
 Develop a portfolio website that showcase my skills and talents to potential employer.
 
 ### User Story
@@ -59,14 +60,17 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
     WHEN I resize the page or view the site on various screens and devices
     [x] THEN I am presented with a responsive layout that adapts to my viewport
 
-###Mock-Up
+### Mock-Up
 
 The following animation shows the web application's appearance and functionality:
 
-######Wireframe
-![portfolio wireframe](./Assets/wireframe.png)
-######Mockup 
-![portfolio demo](./Assets/mockup.png)
+###### Wireframe
+
+![portfolio wireframe](./Assets/images/wireframe.jpg)
+
+###### Mockup 
+
+![portfolio demo](./Assets/images/mock-up-video.mp4)
 
 <!-- ROADMAP -->
 ### Roadmap
@@ -80,16 +84,9 @@ See the [open issues](https://github.com/jenho-webdev/Personal-Portfolio/issues)
 [![Github][Github-shield]](https://github.com/jenho-webdev/Personal-Portfolio)
 [![Slack][slack-shield]](https://jenworkspace-as73396.slack.com/archives/C052QLTJQHG)
 
-
-
 ### Acknowledgments
 
 - Shield and badges used in this markdown document were sourced from [Shields.io](https://shields.io/).
-
-
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
