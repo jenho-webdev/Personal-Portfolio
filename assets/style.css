@@ -21,7 +21,7 @@ h3 {
 }
 /* box */
 h4 {
-    font-size: 200%;
+    font-size: 150%;
     
 }
 
@@ -78,11 +78,13 @@ img:hover {
 .site-header h1 {
 
     background-color: #37495a;
-    margin-right: -20px;
-    margin-left: 0px;
+    margin: 20px 20px 20px 0px;
     padding-left: 100px;
     padding-right: 20px;
-    color: var(--HFFontColor)
+    color: var(--HFFontColor)    
+}
+.sit-header nav{
+    margin-right: 20px;
 }
 .nav-list {
     display: flex;
@@ -95,17 +97,16 @@ img:hover {
 .nav-list li {
     flex-grow: 1;
     flex-shrink: 1;
-
 }
 .nav-list a {
     color: #feffff;
     font-weight: bold;
-    text-decoration: none;
-    font-size: var(--headerNavFontSize);
+    text-decoration: none;s
+    font-size: 20px;
 }
 
 .nav-list a:hover {
-    color: #005f6b;
+    color: #068393;
 }
 
 .hero {
@@ -206,7 +207,7 @@ main {
     color: #ffffff;
     vertical-align: top;
     text-align: center;
-    padding: 5px 50px 10px 10px;
+    padding: 5px 20px 5px 10px;
     font-family: 'Courier New', Courier, monospace;
     
 
@@ -234,12 +235,25 @@ after all other classes */
 
 
 
-/*  only apply to screens that are 768px or narrower. 
+/*  only apply to screens that are 837px or narrower. 
 If the screen is wider than 768px,the styles won't be applied. */
 
-@media screen and (max-width: 768px) {
-    header {
+@media screen and (max-width: 837px) {
+    .site-header {
         flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .site-header h1 {
+
+        width: 100%;
+        text-align: center;
+        padding: 0;
+
+    }
+    .hero h2{
+        margin: auto;
+        width: 100%;
+        text-align: center;
     }
 
     main {
