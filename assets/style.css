@@ -25,10 +25,6 @@ h4 {
     
 }
 
-
-
-
-
 p {
 
     font-size: 16px;
@@ -178,26 +174,33 @@ main {
     height: auto;
     margin: 0 20px 50px 20px;
 }
-
+/* A flex container for all the applications boxes to go in */
 .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 5px 10px;
+    justify-content:flex-start;
+    gap: 20px;
 }
+/* add attribute to first box */
+.boxes > div:first-child { 
 
+    flex: 1 1 40%;
+    width: 100%;
+}
+/* Individual box with in .boxes flex container */
 .box 
 {
     position: relative;
+    width: 300px;
 }
+/* to handle the images that goes into each box */
 .box img {
 
-    padding: 5px;
-    width: 300px;
-    height: 200px;  
-    
+    width: 100%;
+    height: 200px;
+        
 }
-
+/* to handle taxt box over a box */
 .box-text {
 
     position: absolute;
@@ -209,16 +212,16 @@ main {
     text-align: center;
     padding: 5px 20px 5px 10px;
     font-family: 'Courier New', Courier, monospace;
-    
-
+    word-break:break-all;
 }
+/* flex container for all the individual badges to go in */
 .badges {
 
     display: flex;
     gap: 0px 10px;
 
 }
-
+/* handle badge image styling */
 .badges img {
     width: 100px;
     height: 20spx;
@@ -227,7 +230,6 @@ main {
 
 /* reuseable styling and utility classes to override others as these are positioned
 after all other classes */
-
 .flex-center {
     justify-content: center;
 }
@@ -238,30 +240,18 @@ after all other classes */
 /*  only apply to screens that are 837px or narrower. 
 If the screen is wider than 768px,the styles won't be applied. */
 
-@media screen and (max-width: 837px) {
+@media screen and (max-width: 810px) {
     .site-header {
         flex-direction: column;
         flex-wrap: nowrap;
+        padding: 10px;
     }
     .site-header h1 {
 
         width: 100%;
         text-align: center;
         padding: 0;
-
-    }
-    .hero h2{
-        margin: auto;
-        width: 100%;
-        text-align: center;
-    }
-
-    main {
-        max-width: 1200px;
-    }
-
-    section {
-        flex-wrap: wrap;
+        margin: 0;`
     }
 }
 @media screen and (max-width: 400px) {
@@ -271,9 +261,5 @@ If the screen is wider than 768px,the styles won't be applied. */
 
     main {
         max-width: 1200px;
-    }
-
-    section {
-        flex-wrap: wrap;
     }
 }
