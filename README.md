@@ -70,7 +70,7 @@ The following animation shows the web application's appearance and functionality
 
 ###### Mock-up Demo
 
-![portfolio demo](./assets/images/mock-up-video.mp4 "Demo")
+![portfolio demo](./assets/images/mock-up-demo.gif "Demo")
 
 <!-- ROADMAP -->
 ### Roadmap
