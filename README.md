@@ -66,11 +66,11 @@ The following animation shows the web application's appearance and functionality
 
 ###### Wireframe
 
-[portfolio wireframe](./assets/images/wireframe.jpg)
+![portfolio wireframe](./assets/images/wireframe.jpg "wireframe")
 
 ###### Mock-up Demo
 
-[portfolio demo](./assets/images/mock-up-video.mp4)
+![portfolio demo](./assets/images/mock-up-video.mp4 "Demo")
 
 <!-- ROADMAP -->
 ### Roadmap
