@@ -90,6 +90,9 @@ See the [open issues](https://github.com/jenho-webdev/Personal-Portfolio/issues)
 ## Acknowledgments
 
 - Shield and badges used in this markdown document were sourced from [Shields.io](https://shields.io/).
+- Site's header hero backgroup image and application boxes imagers were provided by UCI Bootcamp Course.
+- This website was inspired by UCIBookcamp Week 2 Assignment. The base mockup, user story, acceptance criteria were provided by UCI Bootcamp Full Stack WebDev Course.
+ 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
