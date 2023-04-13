@@ -1,43 +1,45 @@
-<h2 align="center">Personal Portfolio</h2>
 
-  <p align="center">
-    Develop a portfolio website that showcase my skills and talents to potential employer.
-    <br />
-    <a href="https://github.com/jenho-webdev/Personal-Portfolio"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://jenho-webdev.github.io/Personal-Portfolio/">Deployed Application |</a>
-    <a href="https://github.com/jenho-webdev/Personal-Portfolio/issues">Report Bug |</a>
-    <a href="https://github.com/jenho-webdev/Personal-Portfolio/issues">Request Feature |</a>
-  </p>
-</div>
+# Personal Portfolio
+
+  Develop a portfolio website that showcase my skills and talents to potential employer.
+
+- [Explore the docs]( https://github.com/jenho-webdev/Personal-Portfolio)
+
+- [Deployed Application](https://jenho-webdev.github.io/Personal-Portfolio/)
+
+- [Report Bug](https://github.com/jenho-webdev/Personal-Portfolio/issues/)
+
+- [Request Feature](https://github.com/jenho-webdev/Personal-Portfolio/issues)
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a>
-    <li><a href="#user-story">User Story</a>
-    <li><a href="#Acceptance Criteria">Acceptance Criteria</a></li>
-    <li><a href="#Mock-up">Mock-up</a>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
+## Table of Contents
 
-### About The Project
+- [About The Project](#about-the-project)
+
+- [User Story](#user-story)
+
+- [Acceptance Criteria](#acceptance-criteria)
+
+- [Mock-up](#mock-up)
+
+- [Roadmap](#roadmap)
+
+- [Contact](#contact-me)
+
+- [Acknowledgments](#acknowledgments)
+
+## About The Project
 
 Develop a portfolio website that showcase my skills and talents to potential employer.
 
-### User Story
+## User Story
 
     AS AN employer
     I WANT to view a potential employee's deployed portfolio of work samples
     SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-### Acceptance Criteria
+## Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
@@ -60,31 +62,32 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
     WHEN I resize the page or view the site on various screens and devices
     [x] THEN I am presented with a responsive layout that adapts to my viewport
 
-### Mock-Up
+## Mock-Up
 
 The following animation shows the web application's appearance and functionality:
 
-###### Wireframe
+### Wireframe
 
 ![portfolio wireframe](./assets/images/wireframe.jpg "wireframe")
 
-###### Mock-up Demo
+### Mock-up Demo
 
 ![portfolio demo](./assets/images/mock-up-demo.gif "Demo")
 
 <!-- ROADMAP -->
-### Roadmap
+## Roadmap
 
 - [ ] Site Baseline development: A functional and responsive site showing the latest web applications that i built.
 - [ ] Adding some kind of Javascript function to the site for better user experience.
 See the [open issues](https://github.com/jenho-webdev/Personal-Portfolio/issues) for a full list of proposed features (and known issues).
 
-### Contact Me
+## Contact Me
+
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/jen-h-202a1723/)
 [![Github][Github-shield]](https://github.com/jenho-webdev/Personal-Portfolio)
 [![Slack][slack-shield]](https://jenworkspace-as73396.slack.com/archives/C052QLTJQHG)
 
-### Acknowledgments
+## Acknowledgments
 
 - Shield and badges used in this markdown document were sourced from [Shields.io](https://shields.io/).
 <!-- MARKDOWN LINKS & IMAGES -->
