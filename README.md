@@ -77,7 +77,7 @@ The following animation shows the web application's appearance and functionality
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Site Baseline development: A functional and responsive site showing the latest web applications that i built.
+- [x] Site Baseline development: A functional and responsive site showing the latest web applications that i built.
 - [ ] Adding some kind of Javascript function to the site for better user experience.
 See the [open issues](https://github.com/jenho-webdev/Personal-Portfolio/issues) for a full list of proposed features (and known issues).
 
