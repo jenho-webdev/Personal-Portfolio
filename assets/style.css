@@ -218,14 +218,11 @@ Give it al most grow ratio.*/
 
 /* to handle taxt box over a box */
 .box-text {
-    position: absolute;
-    bottom: 8px;
-    right: 0px;
+    /* position: absolute; */
+    /* bottom: 15rem;
+    right: 1rem; */
     background-color: #92cccd;
     color: #ffffff;
-    vertical-align: top;
-    text-align: center;
-    padding: 5px 20px 5px 10px;
     font-family: 'Courier New', Courier, monospace;
     word-break: break-all;
 }
